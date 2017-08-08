@@ -1,0 +1,63 @@
+html, body {
+  width: 95%;
+  height: 95%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.main {
+  width: 700px;
+  height: 700px;
+}
+.main__header {
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+li {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-weight: 500;
+}
+.main__photo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.button-container {
+  position: absolute;
+  top: 20px;
+  right: 30%;
+}
+.button-container_hidden {
+  display: none;
+}
+.auth {
+  width: 150px;
+  height: 40px;
+  background: lightblue;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.auth:hover {
+  background: deepskyblue;
+}
+
+
+/*# sourceMappingURL=styles.css.map*/
